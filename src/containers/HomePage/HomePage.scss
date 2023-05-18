@@ -1,0 +1,64 @@
+.section-home {
+  height: 330px;
+
+  .section-container {
+    margin: 0 200px;
+
+    .section-header {
+      height: 80px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      h2 {
+        font-size: 22px;
+        font-weight: 600;
+      }
+
+      button {
+        border: none;
+        background-color: #dee2e6;
+        padding: 5px 10px;
+        outline: none;
+        margin-right: 4px;
+        text-transform: uppercase;
+
+        &:hover {
+          background-color: #fab005;
+        }
+      }
+    }
+
+    .section-body {
+      .section-content {
+        cursor: pointer;
+
+        .description {
+          display: block;
+          margin-top: 15px;
+          color: #777;
+        }
+      }
+    }
+  }
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 40px !important;
+  color: #555 !important;
+  z-index: 1000;
+}
+
+.slick-prev:before {
+  position: absolute;
+  left: -15px;
+}
+.slick-next:before {
+  position: absolute;
+  right: -10px;
+}
+
+.slick-disabled {
+  display: none !important;
+}

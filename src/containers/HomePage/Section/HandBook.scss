@@ -1,0 +1,24 @@
+.HandBook {
+  .section-content {
+    display: grid !important;
+    grid-template-columns: 2fr 2fr;
+    gap: 20px;
+
+    .section-img {
+      width: 278px;
+      height: 150px;
+      background-image: url("../../../assets/HandBook/114702-kham-nhi-q10.png");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: #eee;
+      border: 1px solid green;
+    }
+
+    .description {
+      font-size: 16px;
+      font-weight: bold;
+      color: #333;
+    }
+  }
+}

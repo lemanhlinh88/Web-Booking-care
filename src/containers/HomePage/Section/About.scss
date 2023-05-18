@@ -1,0 +1,20 @@
+.about {
+  padding: 30px 200px;
+  background-color: #f5f5f5;
+
+  .about-header {
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .about-content {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 40px;
+
+    .about-description {
+      font-style: italic;
+      padding: 15px;
+    }
+  }
+}
